@@ -1,12 +1,60 @@
 body{
-    background-color:hsl(185, 75%, 39%) ;
-}
-.card{
- background-color: white;
- height: 50vh;
- width: 30vw;
- position: relative;
- left: 30vw;
- border-radius: 26px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+ }
+ .card{
+   background-color: white;  
+   height: 50vh;
+   width: 25vw;
+   position: relative;
+   left:38vw ;
+   border-radius:25px ;
+ }
+ #victor{
+     border-radius: 100%;
+     border: solid 6px white;
+     position: relative;
+     bottom: 7vh;
+     left:9vw
+ }
+ #capa{
+     width: 25vw;
+     border-radius: 25px 25px 0 0;
+ }
+ .texto{
+     position: relative;
+     bottom: 10vh;
+     left: 7vw;
+ }
+ hr{
+     position: relative;
+     right: 7vw;
+ }
+ td,th{
+    padding-left: 3vw;
+ }
 
-}
+ span{
+    font-weight: 400;
+    color:gray
+ }
+ p,td{
+    color:gray
+ }
+ table{
+position: relative;
+right: 5vw;
+ }
+ p{
+    position: relative;
+    left: 4vw;
+ }
+ #top{
+    position:relative;
+    left: 1000px;
+    
+ }
+ #top2{
+    position: inherit;
+    left: 100000px
+ }
